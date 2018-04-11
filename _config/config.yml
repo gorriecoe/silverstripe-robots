@@ -1,0 +1,14 @@
+---
+Name: robotsconfig
+---
+SilverStripe\Control\Director:
+  rules:
+    "robots.txt": gorriecoe\Robots\Robots
+    robots: gorriecoe\Robots\Robots # Useful for local testing.
+---
+Only:
+  moduleexists: 'silverstripe/cms'
+---
+gorriecoe\Robots\Robots:
+  extensions:
+    - gorriecoe\Robots\RobotsSiteTree

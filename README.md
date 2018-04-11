@@ -23,8 +23,6 @@ This module is heavily inspired by [silverstripe-robots](https://github.com/trac
 
 ## Configuration
 
-Basic robots configuration can be found at [_config/robots.yml](_config/robots.yml)
-
 You can add a page or pattern to be blocked by adding it to the disallowedUrls configuration
 
 ```yaml

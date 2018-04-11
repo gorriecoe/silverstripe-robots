@@ -1,0 +1,27 @@
+{
+  "name": "gorriecoe/silverstripe-robots",
+  "description": "Simple robots generation module for Silverstripe.",
+  "type": "silverstripe-vendormodule",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Gorrie Coe",
+      "email": "gorriecoe@gmail.com"
+    }
+  ],
+  "keywords": [
+    "silverstripe",
+    "robots"
+  ],
+  "homepage": "http://github.com/gorriecoe/silverstripe-robots",
+  "require":
+  {
+    "silverstripe/framework": "4.^"
+  },
+  "extra": {
+    "installer-name": "robots"
+  },
+  "suggest": {
+    "silverstripe/googlesitemaps": "Ensures that a valid sitemap.xml is generated and referenced within robots.txt"
+  }
+}
