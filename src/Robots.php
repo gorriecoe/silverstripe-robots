@@ -89,7 +89,7 @@ class Robots extends Controller
         // Check if sitemap is configured
         $sitemaps = $this->config()->get('sitemap');
         if (!isset($sitemaps)) {
-            return '';
+            $sitemaps = [];
         }
 
         if (is_string($sitemaps)) {
