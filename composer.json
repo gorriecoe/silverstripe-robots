@@ -14,9 +14,8 @@
     "robots"
   ],
   "homepage": "http://github.com/gorriecoe/silverstripe-robots",
-  "require":
-  {
-    "silverstripe/framework": "4.^"
+  "require": {
+    "silverstripe/framework": "^4.0"
   },
   "extra": {
     "installer-name": "robots"
