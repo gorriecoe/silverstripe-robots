@@ -19,8 +19,8 @@ class RobotsSitetree extends DataExtension
         if (Robots::config()->disallow_unsearchable) {
             foreach (SiteTree::get()->filter('ShowInSearch', false) as $page) {
                 $link = $page->Link();
-                // Don't disallow home page
-                if ($link !== '/') {
+				// Don't disallow home page, no RedirectorPage with RedirectionType External
+				if ($link !== '/' && $page->RedirectionType != 'External') {
                     $urls[] = $link;
                 }
             }
