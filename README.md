@@ -47,7 +47,7 @@ By default the module will check for a sitemap file in `/sitemap.xml`. You can s
 
 ```yaml
 gorriecoe\Robots\Robots:
-  sitemap: '/sitemap_index.xml'
+  sitemap: '/sitemap.xml'
 ```
 For multiple sitemaps.
 ```yaml
